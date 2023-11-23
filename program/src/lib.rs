@@ -17,6 +17,9 @@ pub fn process_instruction(
 ) -> ProgramResult {
     // log to blockchain
     msg!("Hello Chain");
+    msg!("Program ID at moment: {}", &program_id);
+    msg!(": {:?}", &accounts);
+    msg!(": {:?}", &instruction_data);
 
     // exit program
     Ok(())
