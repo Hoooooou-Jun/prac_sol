@@ -1,4 +1,4 @@
-# SOl
+# SOL
 ## Solana CLI set-up
 ### solana cli test validator
 ~~~
