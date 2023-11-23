@@ -15,11 +15,9 @@ pub fn process_instruction(
     accounts: &[AccountInfo],
     instruction_data: &[u8]
 ) -> ProgramResult {
-    // log to blockchain
+    // log to On-chaine
     msg!("Hello Chain");
     msg!("Program ID at moment: {}", &program_id);
-    msg!(": {:?}", &accounts);
-    msg!(": {:?}", &instruction_data);
 
     // exit program
     Ok(())
